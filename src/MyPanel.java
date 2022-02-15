@@ -1,12 +1,9 @@
 import java.awt.*;
 import javax.swing.*;
 
-import java.util.Collections;
-
 public class MyPanel extends JPanel {
 
 elevator[] elevatorarray;
-java.util.List<elevatorRequest> requestlist;
 
     MyPanel() {
         this.setPreferredSize(new Dimension(500, 600));
@@ -18,12 +15,10 @@ java.util.List<elevatorRequest> requestlist;
         super.paintComponent(g);
 
         if(elevatorarray != null){
-            java.util.List<elevatorRequest> temprequestlist;
-            temprequestlist = Collections.synchronizedList(requestlist);
-
-            g2D.drawString("^ elevator array ^", 150, 700);
-
             g2D.setPaint(Color.blue);
+            g2D.drawString("↑ ELEVATOR ARRAY ↑", 130, 700);
+            g2D.drawString("_________________________________________________________", 2, 680);
+
             g2D.drawRect(20, 600 - (elevatorarray[0].getfloornum() * 10), 40, 70);
 
             g2D.drawString(String.valueOf(elevatorarray[0].getfloornum()) , 35, 640 - (elevatorarray[0].getfloornum() * 10) );
@@ -54,9 +49,8 @@ java.util.List<elevatorRequest> requestlist;
         }
     }
 
-    protected void drawelevators(elevator[] _elevatorarray, java.util.List<elevatorRequest> _requestlist) {
+    protected void drawelevators(elevator[] _elevatorarray) {
         elevatorarray = _elevatorarray;
-        requestlist = _requestlist;
         repaint();
     }
 }
