@@ -1,18 +1,15 @@
-## Getting Started
+# IBM Elevator Worksheet
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Welcome to my implementation of the IBM elevator problem.
 
-## Folder Structure
+## What it is
 
-The workspace contains two folders by default, where:
+This repo contains my solution to the IBM elevator problem. It handles requests from a number of floors in order to bring elevators up and/or down to take care of them.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### Built with
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+* [VSCode](https://code.visualstudio.com/) - Platform used for development
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### Author
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+* **Guillermo von Stolzmann** - [Github](https://github.com/kahodes04)
