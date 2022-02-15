@@ -1,10 +1,10 @@
-# IBM Elevator Worksheet
+# IBM Elevator Challenge Worksheet
 
-Welcome to my implementation of the IBM elevator problem.
+Welcome to my implementation of the IBM elevator challenge.
 
 ## What it is
 
-This repo contains my solution to the IBM elevator problem. It handles requests from a number of floors in order to bring elevators up and/or down to take care of them.
+This repo contains my solution to the IBM elevator challenge. It handles requests from a number of floors (0 to 55) in order to bring elevators up and/or down to take care of them.
 
 ### Built with
 
